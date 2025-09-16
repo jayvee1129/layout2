@@ -53,20 +53,23 @@
 .container-red-large-container {
   display: flex;
   flex-grow: 1;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .box-red-large {
   background-color: #ffb3b3;
   border: 6px solid #a52b2a;
-  flex: 2 1 180px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-red-right-side {
   display: flex;
   flex-direction: column;
-  flex: 1 1 460px;
+  flex: 1;
   gap: 10px;
 }
 
